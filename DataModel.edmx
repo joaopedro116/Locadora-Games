@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DataContext.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ALUGUEL">
+          <Key>
+            <PropertyRef Name="ID_ALUGUEL" />
+          </Key>
+          <Property Name="ID_ALUGUEL" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cpf" Type="varchar" MaxLength="14" />
+          <Property Name="ID_CATALOGO" Type="int" />
+          <Property Name="data_aluguel" Type="datetime" />
+          <Property Name="devolvido" Type="bit" />
+        </EntityType>
+        <EntityType Name="CATALOGO">
+          <Key>
+            <PropertyRef Name="ID_CATALOGO" />
+          </Key>
+          <Property Name="ID_CATALOGO" Type="int" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="60" />
+          <Property Name="GENERO" Type="varchar" MaxLength="30" />
+          <Property Name="EAN" Type="varchar" MaxLength="30" />
+          <Property Name="QUANTIDADE" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="CLIENTES">
+          <Key>
+            <PropertyRef Name="cpf" />
+          </Key>
+          <Property Name="cpf" Type="varchar" MaxLength="14" Nullable="false" />
+          <Property Name="data_nasc" Type="varchar" MaxLength="10" />
+          <Property Name="nome" Type="varchar" MaxLength="60" />
+          <Property Name="cep" Type="varchar" MaxLength="11" />
+          <Property Name="endereco" Type="varchar" MaxLength="50" />
+          <Property Name="comp" Type="varchar" MaxLength="20" />
+          <Property Name="bairro" Type="varchar" MaxLength="40" />
+          <Property Name="cidade" Type="varchar" MaxLength="35" />
+          <Property Name="uf" Type="varchar" MaxLength="2" />
+          <Property Name="fone_res" Type="varchar" MaxLength="16" />
+          <Property Name="celular" Type="varchar" MaxLength="17" />
+          <Property Name="email" Type="varchar" MaxLength="60" />
+          <Property Name="foto" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="DEVOLUCAO">
+          <Key>
+            <PropertyRef Name="ID_DEVOLUCAO" />
+          </Key>
+          <Property Name="ID_DEVOLUCAO" Type="int" Nullable="false" />
+          <Property Name="cpf" Type="varchar" MaxLength="14" />
+          <Property Name="ID_ALUGUEL" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'HUMBERTO_LOCADORA.dbo.tb_cep' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="tb_cep">
+          <Key>
+            <PropertyRef Name="CEP" />
+          </Key>
+          <Property Name="CEP" Type="nvarchar" MaxLength="9" Nullable="false" />
+          <Property Name="ENDERECO" Type="nvarchar" MaxLength="40" />
+          <Property Name="CIDADE" Type="nvarchar" MaxLength="35" />
+          <Property Name="BAIRRO" Type="nvarchar" MaxLength="35" />
+          <Property Name="UF" Type="nvarchar" MaxLength="2" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="cpf" />
+          </Key>
+          <Property Name="cpf" Type="varchar" MaxLength="14" Nullable="false" />
+          <Property Name="data_nasc" Type="varchar" MaxLength="10" />
+          <Property Name="nome" Type="varchar" MaxLength="60" />
+          <Property Name="cep" Type="varchar" MaxLength="11" />
+          <Property Name="endereco" Type="varchar" MaxLength="50" />
+          <Property Name="comp" Type="varchar" MaxLength="20" />
+          <Property Name="bairro" Type="varchar" MaxLength="40" />
+          <Property Name="cidade" Type="varchar" MaxLength="35" />
+          <Property Name="uf" Type="varchar" MaxLength="2" />
+          <Property Name="fone_res" Type="varchar" MaxLength="16" />
+          <Property Name="celular" Type="varchar" MaxLength="17" />
+          <Property Name="email" Type="varchar" MaxLength="60" />
+          <Property Name="senha" Type="varchar" MaxLength="30" />
+          <Property Name="foto" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <Association Name="FK__ALUGUEL__cpf__2C3393D0">
+          <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="0..1" />
+          <End Role="ALUGUEL" Type="Self.ALUGUEL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTES">
+              <PropertyRef Name="cpf" />
+            </Principal>
+            <Dependent Role="ALUGUEL">
+              <PropertyRef Name="cpf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ALUGUEL__ID_CATA__2D27B809">
+          <End Role="CATALOGO" Type="Self.CATALOGO" Multiplicity="0..1" />
+          <End Role="ALUGUEL" Type="Self.ALUGUEL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CATALOGO">
+              <PropertyRef Name="ID_CATALOGO" />
+            </Principal>
+            <Dependent Role="ALUGUEL">
+              <PropertyRef Name="ID_CATALOGO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DEVOLUCAO__cpf__2E1BDC42">
+          <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="0..1" />
+          <End Role="DEVOLUCAO" Type="Self.DEVOLUCAO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTES">
+              <PropertyRef Name="cpf" />
+            </Principal>
+            <Dependent Role="DEVOLUCAO">
+              <PropertyRef Name="cpf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DEVOLUCAO__ID_AL__2F10007B">
+          <End Role="ALUGUEL" Type="Self.ALUGUEL" Multiplicity="0..1" />
+          <End Role="DEVOLUCAO" Type="Self.DEVOLUCAO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ALUGUEL">
+              <PropertyRef Name="ID_ALUGUEL" />
+            </Principal>
+            <Dependent Role="DEVOLUCAO">
+              <PropertyRef Name="ID_ALUGUEL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DataContextStoreContainer">
+          <EntitySet Name="ALUGUEL" EntityType="Self.ALUGUEL" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CATALOGO" EntityType="Self.CATALOGO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DEVOLUCAO" EntityType="Self.DEVOLUCAO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tb_cep" EntityType="Self.tb_cep" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [tb_cep].[CEP] AS [CEP], 
+    [tb_cep].[ENDERECO] AS [ENDERECO], 
+    [tb_cep].[CIDADE] AS [CIDADE], 
+    [tb_cep].[BAIRRO] AS [BAIRRO], 
+    [tb_cep].[UF] AS [UF]
+    FROM [dbo].[tb_cep] AS [tb_cep]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK__ALUGUEL__cpf__2C3393D0" Association="Self.FK__ALUGUEL__cpf__2C3393D0">
+            <End Role="CLIENTES" EntitySet="CLIENTES" />
+            <End Role="ALUGUEL" EntitySet="ALUGUEL" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ALUGUEL__ID_CATA__2D27B809" Association="Self.FK__ALUGUEL__ID_CATA__2D27B809">
+            <End Role="CATALOGO" EntitySet="CATALOGO" />
+            <End Role="ALUGUEL" EntitySet="ALUGUEL" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DEVOLUCAO__cpf__2E1BDC42" Association="Self.FK__DEVOLUCAO__cpf__2E1BDC42">
+            <End Role="CLIENTES" EntitySet="CLIENTES" />
+            <End Role="DEVOLUCAO" EntitySet="DEVOLUCAO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DEVOLUCAO__ID_AL__2F10007B" Association="Self.FK__DEVOLUCAO__ID_AL__2F10007B">
+            <End Role="ALUGUEL" EntitySet="ALUGUEL" />
+            <End Role="DEVOLUCAO" EntitySet="DEVOLUCAO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataContext" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ALUGUEL">
+          <Key>
+            <PropertyRef Name="ID_ALUGUEL" />
+          </Key>
+          <Property Name="ID_ALUGUEL" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cpf" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="ID_CATALOGO" Type="Int32" />
+          <Property Name="data_aluguel" Type="DateTime" Precision="3" />
+          <Property Name="devolvido" Type="Boolean" />
+          <NavigationProperty Name="CLIENTE" Relationship="Self.FK__ALUGUEL__cpf__2C3393D0" FromRole="ALUGUEL" ToRole="CLIENTES" />
+          <NavigationProperty Name="CATALOGO" Relationship="Self.FK__ALUGUEL__ID_CATA__2D27B809" FromRole="ALUGUEL" ToRole="CATALOGO" />
+          <NavigationProperty Name="DEVOLUCAOs" Relationship="Self.FK__DEVOLUCAO__ID_AL__2F10007B" FromRole="ALUGUEL" ToRole="DEVOLUCAO" />
+        </EntityType>
+        <EntityType Name="CATALOGO">
+          <Key>
+            <PropertyRef Name="ID_CATALOGO" />
+          </Key>
+          <Property Name="ID_CATALOGO" Type="Int32" Nullable="false" />
+          <Property Name="NOME" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="GENERO" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="EAN" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="QUANTIDADE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ALUGUELs" Relationship="Self.FK__ALUGUEL__ID_CATA__2D27B809" FromRole="CATALOGO" ToRole="ALUGUEL" />
+        </EntityType>
+        <EntityType Name="CLIENTE">
+          <Key>
+            <PropertyRef Name="cpf" />
+          </Key>
+          <Property Name="cpf" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="data_nasc" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="nome" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="cep" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="endereco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="comp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="bairro" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="cidade" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="uf" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="fone_res" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+          <Property Name="celular" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="foto" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ALUGUELs" Relationship="Self.FK__ALUGUEL__cpf__2C3393D0" FromRole="CLIENTES" ToRole="ALUGUEL" />
+          <NavigationProperty Name="DEVOLUCAOs" Relationship="Self.FK__DEVOLUCAO__cpf__2E1BDC42" FromRole="CLIENTES" ToRole="DEVOLUCAO" />
+        </EntityType>
+        <EntityType Name="DEVOLUCAO">
+          <Key>
+            <PropertyRef Name="ID_DEVOLUCAO" />
+          </Key>
+          <Property Name="ID_DEVOLUCAO" Type="Int32" Nullable="false" />
+          <Property Name="cpf" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+          <Property Name="ID_ALUGUEL" Type="Int32" />
+          <NavigationProperty Name="ALUGUEL" Relationship="Self.FK__DEVOLUCAO__ID_AL__2F10007B" FromRole="DEVOLUCAO" ToRole="ALUGUEL" />
+          <NavigationProperty Name="CLIENTE" Relationship="Self.FK__DEVOLUCAO__cpf__2E1BDC42" FromRole="DEVOLUCAO" ToRole="CLIENTES" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="cpf" />
+          </Key>
+          <Property Name="cpf" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="data_nasc" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="nome" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="cep" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="endereco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="comp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="bairro" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="cidade" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="uf" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="fone_res" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+          <Property Name="celular" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="senha" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="foto" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tb_cep">
+          <Key>
+            <PropertyRef Name="CEP" />
+          </Key>
+          <Property Name="CEP" Type="String" MaxLength="9" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CIDADE" Type="String" MaxLength="35" FixedLength="false" Unicode="true" />
+          <Property Name="BAIRRO" Type="String" MaxLength="35" FixedLength="false" Unicode="true" />
+          <Property Name="UF" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK__ALUGUEL__cpf__2C3393D0">
+          <End Role="CLIENTES" Type="Self.CLIENTE" Multiplicity="0..1" />
+          <End Role="ALUGUEL" Type="Self.ALUGUEL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTES">
+              <PropertyRef Name="cpf" />
+            </Principal>
+            <Dependent Role="ALUGUEL">
+              <PropertyRef Name="cpf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ALUGUEL__ID_CATA__2D27B809">
+          <End Role="CATALOGO" Type="Self.CATALOGO" Multiplicity="0..1" />
+          <End Role="ALUGUEL" Type="Self.ALUGUEL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CATALOGO">
+              <PropertyRef Name="ID_CATALOGO" />
+            </Principal>
+            <Dependent Role="ALUGUEL">
+              <PropertyRef Name="ID_CATALOGO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DEVOLUCAO__ID_AL__2F10007B">
+          <End Role="ALUGUEL" Type="Self.ALUGUEL" Multiplicity="0..1" />
+          <End Role="DEVOLUCAO" Type="Self.DEVOLUCAO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ALUGUEL">
+              <PropertyRef Name="ID_ALUGUEL" />
+            </Principal>
+            <Dependent Role="DEVOLUCAO">
+              <PropertyRef Name="ID_ALUGUEL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DEVOLUCAO__cpf__2E1BDC42">
+          <End Role="CLIENTES" Type="Self.CLIENTE" Multiplicity="0..1" />
+          <End Role="DEVOLUCAO" Type="Self.DEVOLUCAO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTES">
+              <PropertyRef Name="cpf" />
+            </Principal>
+            <Dependent Role="DEVOLUCAO">
+              <PropertyRef Name="cpf" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HumbertoLocadora" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ALUGUELs" EntityType="Self.ALUGUEL" />
+          <EntitySet Name="CATALOGOes" EntityType="Self.CATALOGO" />
+          <EntitySet Name="CLIENTES" EntityType="Self.CLIENTE" />
+          <EntitySet Name="DEVOLUCAOs" EntityType="Self.DEVOLUCAO" />
+          <EntitySet Name="USUARIOs" EntityType="Self.USUARIO" />
+          <EntitySet Name="tb_cep" EntityType="Self.tb_cep" />
+          <AssociationSet Name="FK__ALUGUEL__cpf__2C3393D0" Association="Self.FK__ALUGUEL__cpf__2C3393D0">
+            <End Role="CLIENTES" EntitySet="CLIENTES" />
+            <End Role="ALUGUEL" EntitySet="ALUGUELs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ALUGUEL__ID_CATA__2D27B809" Association="Self.FK__ALUGUEL__ID_CATA__2D27B809">
+            <End Role="CATALOGO" EntitySet="CATALOGOes" />
+            <End Role="ALUGUEL" EntitySet="ALUGUELs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DEVOLUCAO__ID_AL__2F10007B" Association="Self.FK__DEVOLUCAO__ID_AL__2F10007B">
+            <End Role="ALUGUEL" EntitySet="ALUGUELs" />
+            <End Role="DEVOLUCAO" EntitySet="DEVOLUCAOs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DEVOLUCAO__cpf__2E1BDC42" Association="Self.FK__DEVOLUCAO__cpf__2E1BDC42">
+            <End Role="CLIENTES" EntitySet="CLIENTES" />
+            <End Role="DEVOLUCAO" EntitySet="DEVOLUCAOs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataContextStoreContainer" CdmEntityContainer="HumbertoLocadora">
+          <EntitySetMapping Name="ALUGUELs">
+            <EntityTypeMapping TypeName="DataContext.ALUGUEL">
+              <MappingFragment StoreEntitySet="ALUGUEL">
+                <ScalarProperty Name="ID_ALUGUEL" ColumnName="ID_ALUGUEL" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+                <ScalarProperty Name="ID_CATALOGO" ColumnName="ID_CATALOGO" />
+                <ScalarProperty Name="data_aluguel" ColumnName="data_aluguel" />
+                <ScalarProperty Name="devolvido" ColumnName="devolvido" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CATALOGOes">
+            <EntityTypeMapping TypeName="DataContext.CATALOGO">
+              <MappingFragment StoreEntitySet="CATALOGO">
+                <ScalarProperty Name="ID_CATALOGO" ColumnName="ID_CATALOGO" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="GENERO" ColumnName="GENERO" />
+                <ScalarProperty Name="EAN" ColumnName="EAN" />
+                <ScalarProperty Name="QUANTIDADE" ColumnName="QUANTIDADE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CLIENTES">
+            <EntityTypeMapping TypeName="DataContext.CLIENTE">
+              <MappingFragment StoreEntitySet="CLIENTES">
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+                <ScalarProperty Name="data_nasc" ColumnName="data_nasc" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cep" ColumnName="cep" />
+                <ScalarProperty Name="endereco" ColumnName="endereco" />
+                <ScalarProperty Name="comp" ColumnName="comp" />
+                <ScalarProperty Name="bairro" ColumnName="bairro" />
+                <ScalarProperty Name="cidade" ColumnName="cidade" />
+                <ScalarProperty Name="uf" ColumnName="uf" />
+                <ScalarProperty Name="fone_res" ColumnName="fone_res" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="foto" ColumnName="foto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DEVOLUCAOs">
+            <EntityTypeMapping TypeName="DataContext.DEVOLUCAO">
+              <MappingFragment StoreEntitySet="DEVOLUCAO">
+                <ScalarProperty Name="ID_DEVOLUCAO" ColumnName="ID_DEVOLUCAO" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+                <ScalarProperty Name="ID_ALUGUEL" ColumnName="ID_ALUGUEL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIOs">
+            <EntityTypeMapping TypeName="DataContext.USUARIO">
+              <MappingFragment StoreEntitySet="USUARIO">
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+                <ScalarProperty Name="data_nasc" ColumnName="data_nasc" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="cep" ColumnName="cep" />
+                <ScalarProperty Name="endereco" ColumnName="endereco" />
+                <ScalarProperty Name="comp" ColumnName="comp" />
+                <ScalarProperty Name="bairro" ColumnName="bairro" />
+                <ScalarProperty Name="cidade" ColumnName="cidade" />
+                <ScalarProperty Name="uf" ColumnName="uf" />
+                <ScalarProperty Name="fone_res" ColumnName="fone_res" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="foto" ColumnName="foto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_cep">
+            <EntityTypeMapping TypeName="DataContext.tb_cep">
+              <MappingFragment StoreEntitySet="tb_cep">
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+                <ScalarProperty Name="UF" ColumnName="UF" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

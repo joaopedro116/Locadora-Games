@@ -1,0 +1,219 @@
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\JP\source\repos\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\mathe\Downloads\locadora com cep\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\JP\Desktop\zip do beto\locadora com cep em uso\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\mathe\Desktop\Humberto P2\locador1foto\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\JP\Desktop\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\mathe\Downloads\locadora cliente e funcionário\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.dll
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.xml
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mathe\Downloads\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CopyComplete
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.dll
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.xml
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CopyComplete
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\mathe\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.dll
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.xml
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CopyComplete
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\mathe\Desktop\Humberto P2\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbprojAssemblyReference.cache
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Interop.ADODB.dll
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.ResolveComReference.cache
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_clientes.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_funcionario.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_cadastro_jogos.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_devolver.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_menu_principal.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_login.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.frm_solicitar.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora_de_Games.Resources.resources
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.GenerateResource.cache
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CoreCompileInputs.cache
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.exe
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.xml
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe.config
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.exe
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.pdb
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\Locadora de Games.xml
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.dll
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.xml
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JP\Desktop\tudao beto\locadora só falta locação e devolução\Locadora de Games\Locadora de Games\obj\Debug\Locadora de Games.vbproj.CopyComplete

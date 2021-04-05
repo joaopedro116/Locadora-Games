@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataContextStoreContainer" CdmEntityContainer="HumbertoLocadora">
+    <EntitySetMapping Name="ALUGUELs">
+      <EntityTypeMapping TypeName="DataContext.ALUGUEL">
+        <MappingFragment StoreEntitySet="ALUGUEL">
+          <ScalarProperty Name="ID_ALUGUEL" ColumnName="ID_ALUGUEL" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="ID_CATALOGO" ColumnName="ID_CATALOGO" />
+          <ScalarProperty Name="data_aluguel" ColumnName="data_aluguel" />
+          <ScalarProperty Name="devolvido" ColumnName="devolvido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATALOGOes">
+      <EntityTypeMapping TypeName="DataContext.CATALOGO">
+        <MappingFragment StoreEntitySet="CATALOGO">
+          <ScalarProperty Name="ID_CATALOGO" ColumnName="ID_CATALOGO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="GENERO" ColumnName="GENERO" />
+          <ScalarProperty Name="EAN" ColumnName="EAN" />
+          <ScalarProperty Name="QUANTIDADE" ColumnName="QUANTIDADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTES">
+      <EntityTypeMapping TypeName="DataContext.CLIENTE">
+        <MappingFragment StoreEntitySet="CLIENTES">
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="data_nasc" ColumnName="data_nasc" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="comp" ColumnName="comp" />
+          <ScalarProperty Name="bairro" ColumnName="bairro" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+          <ScalarProperty Name="uf" ColumnName="uf" />
+          <ScalarProperty Name="fone_res" ColumnName="fone_res" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEVOLUCAOs">
+      <EntityTypeMapping TypeName="DataContext.DEVOLUCAO">
+        <MappingFragment StoreEntitySet="DEVOLUCAO">
+          <ScalarProperty Name="ID_DEVOLUCAO" ColumnName="ID_DEVOLUCAO" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="ID_ALUGUEL" ColumnName="ID_ALUGUEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOs">
+      <EntityTypeMapping TypeName="DataContext.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="data_nasc" ColumnName="data_nasc" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="comp" ColumnName="comp" />
+          <ScalarProperty Name="bairro" ColumnName="bairro" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+          <ScalarProperty Name="uf" ColumnName="uf" />
+          <ScalarProperty Name="fone_res" ColumnName="fone_res" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_cep">
+      <EntityTypeMapping TypeName="DataContext.tb_cep">
+        <MappingFragment StoreEntitySet="tb_cep">
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
